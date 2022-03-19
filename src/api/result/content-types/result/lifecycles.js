@@ -6,7 +6,6 @@ module.exports = {
     // let's do a 20% discount everytime
     //event.params.data.price = event.params.data.price * 0.8;
   },
-
 };
 /*
 {

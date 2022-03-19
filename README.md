@@ -23,6 +23,7 @@ With the header: Authorization: bearer <YOUR_API_TOKEN>
 yarn strapi config:dump --file config.dump.json --pretty true
 yarn strapi help config:restore
 
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
