@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "results",
+  "info": {
+    "singularName": "result",
+    "pluralName": "results",
+    "displayName": "Result",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "tester": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "result"
+    },
+    "myuid": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "uiduid": {
+      "type": "uid",
+      "targetField": "myuid",
+      "required": true
+    },
+    "comcom": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testval.testcom"
+    },
+    "uidmyuid": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

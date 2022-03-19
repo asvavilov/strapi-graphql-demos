@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "storages",
+  "info": {
+    "singularName": "storage",
+    "pluralName": "storages",
+    "displayName": "Storage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}
